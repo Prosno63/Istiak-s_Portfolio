@@ -2,7 +2,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: antiquewhite;
+    margin: 0 200px;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -42,4 +42,19 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+.header{
+    background-color: aliceblue;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner img{
+    height: 500px;
+    width: 400px;
 }
