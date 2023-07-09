@@ -17,6 +17,11 @@ body{
     font-size: 20px;
     font-weight: 700;
     padding: 10px 25px;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 
@@ -51,10 +56,53 @@ nav a{
     padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
 
 .banner img{
     height: 500px;
-    width: 400px;
+    width: 600px;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 10px;
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+}
+
+.banner-para{
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.banner-content{
+    max-width: 500px;
+}
+
+.about{
+    padding: 130px;
+    background-color: antiquewhite;
+    margin: 130px;
+
+}
+
+.section-title{
+
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+
+}
+
+.section-description{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
 }
