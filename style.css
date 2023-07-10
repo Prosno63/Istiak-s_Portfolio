@@ -115,6 +115,7 @@ main{
 .about-info-container{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0;
 }
 
 .about-info{
@@ -122,4 +123,42 @@ main{
 }
 .info-description{
     font-weight: lighter;
+}
+
+.what-info{
+    background-color:rgb(248, 243, 243);
+    padding: 50px 130px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.skill-container img{
+
+    height: 50px;
+    width: 50px;
+
+}
+
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill{
+    margin-right: 24px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 5px #474747;
+}
+
+.skill:hover{
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.skill-description{
+    padding: 0 30px;
+    text-align: start;
+
 }
