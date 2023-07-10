@@ -148,7 +148,7 @@ main{
 .skill{
     margin-right: 24px;
     border-radius: 4px;
-    box-shadow: 2px 2px 2px 5px #474747;
+    box-shadow: 2px 2px 2px 2px #474747;
 }
 
 .skill:hover{
@@ -161,4 +161,46 @@ main{
     padding: 0 30px;
     text-align: start;
 
+}
+
+.resume-col-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    
+    text-align: start;
+    gap: 25px;
+}
+
+.Social-Link-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin-top: 100px;
+    gap:50px;
+}
+
+.footer-col{
+    width: 50%;
+    
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 23px;
+    padding: 18px 30px;
+    color: #efe9e7;
+    border-radius: 5px;
+    border: 0;
+    width: 80%;
 }
